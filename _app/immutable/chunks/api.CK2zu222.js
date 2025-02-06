@@ -1,0 +1,1 @@
+import{r as t,a}from"./index.DrRnOfd5.js";const s=async e=>await a({path:"/cookbook/addRecipe",data:e}),c=async()=>await t({authorize:!0,path:"/cookbook/listRecipes"}),r=async e=>await a({data:{recipeId:e},path:"/cookbook/getRecipe"});export{s as a,r as g,c as l};
