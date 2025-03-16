@@ -1,1 +1,0 @@
-import{A as c,Z as i,z as _,B as h,h as r,a as d,W as k,C as u,E as y,U as l}from"./index-client.JlBVMNcv.js";function I(f,n,t){r&&d();var e=f,s=l,a,o=c()?i:_;h(()=>{o(s,s=n())&&(a&&k(a),a=u(()=>t(e)))}),r&&(e=y)}export{I as k};
