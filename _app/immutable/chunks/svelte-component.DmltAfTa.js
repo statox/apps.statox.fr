@@ -1,0 +1,1 @@
+import{B as c,Y as s,C as i,h as r,a as h,W as p,E as d}from"./index-client.JlBVMNcv.js";function u(t,f,o){r&&h();var n=t,a,e;c(()=>{a!==(a=f())&&(e&&(p(e),e=null),a&&(e=i(()=>o(n,a))))},s),r&&(n=d)}export{u as c};
