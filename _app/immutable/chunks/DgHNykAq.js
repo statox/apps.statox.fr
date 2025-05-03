@@ -1,1 +1,0 @@
-import{B as c,a2 as i,z as _,K as h,h as r,a as d,a0 as k,V as u,E as y,U as l}from"./Bl4IpmnI.js";function I(f,n,t){r&&d();var e=f,s=l,a,o=c()?i:_;h(()=>{o(s,s=n())&&(a&&k(a),a=u(()=>t(e)))}),r&&(e=y)}export{I as k};

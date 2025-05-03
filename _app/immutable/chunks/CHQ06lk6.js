@@ -1,0 +1,1 @@
+import{H as _,a7 as c,z as i,R as h,h as r,a as d,a5 as k,_ as u,J as y,X as l}from"./D7Iq_oEs.js";function I(f,n,t){r&&d();var e=f,s=l,a,o=_()?c:i;h(()=>{o(s,s=n())&&(a&&k(a),a=u(()=>t(e)))}),r&&(e=y)}export{I as k};
