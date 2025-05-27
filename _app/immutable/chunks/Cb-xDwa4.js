@@ -1,0 +1,1 @@
+import{Q as c,R as i,x as _,T as h,h as r,a as d,U as k,V as u,I as y,W as I}from"./Cv-zmWGa.js";function v(f,n,t){r&&d();var e=f,s=I,a,o=c()?i:_;h(()=>{o(s,s=n())&&(a&&k(a),a=u(()=>t(e)))}),r&&(e=y)}export{v as k};
