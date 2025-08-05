@@ -1,0 +1,1 @@
+import"../chunks/NZTpNUN0.js";import"../chunks/iCKjD8Bj.js";import{o,a as e}from"../chunks/CwNiQ9pF.js";var n=o('<a href="garden/barnsley">Barnsley fern</a>');function f(a){var r=n();e(a,r)}export{f as component};
