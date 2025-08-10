@@ -1,0 +1,1 @@
+import"../chunks/NZTpNUN0.js";import"../chunks/BE8VNsya.js";import{o as e,a as o}from"../chunks/CF3vMb2z.js";var n=e('<ul><li><a href="garden/barnsley">Barnsley fern</a></li> <li><a href="garden/exp1">Experiment</a></li></ul>');function t(r){var a=n();o(r,a)}export{t as component};
