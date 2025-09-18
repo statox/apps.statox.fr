@@ -1,1 +1,0 @@
-import{r as e,a}from"./ndYOm8XU.js";const s=async t=>await a({path:"/cookbook/addRecipe",data:t}),i=async()=>await e({authorize:!0,path:"/cookbook/listRecipes"}),r=async()=>await e({authorize:!0,path:"/cookbook/listIngredients"}),c=async t=>await a({data:{recipeId:t},path:"/cookbook/getRecipe"});export{r as a,s as b,c as g,i as l};
