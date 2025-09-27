@@ -1,0 +1,1 @@
+import{m as d,u,k as n,az as c,aW as p}from"./ClDZ5lex.js";function m(s,o,r){d(()=>{var a=u(()=>o(s,r?.())||{});if(r&&a?.update){var t=!1,f={};n(()=>{var e=r();c(e),t&&p(f,e)&&(f=e,a.update(e))}),t=!0}if(a?.destroy)return()=>a.destroy()})}export{m as a};
