@@ -1,1 +1,0 @@
-import{ab as y,G as o,aK as _,H as t,au as g,av as p,aD as i,Q as l,P as d,ad as v}from"./BTM_f0C0.js";function E(n,r){let a=null,f=t;var s;if(t){a=v;for(var e=g(document.head);e!==null&&(e.nodeType!==p||e.data!==n);)e=i(e);if(e===null)l(!1);else{var u=i(e);e.remove(),d(u)}}t||(s=document.head.appendChild(y()));try{o(()=>r(s),_)}finally{f&&(l(!0),d(a))}}export{E as h};
