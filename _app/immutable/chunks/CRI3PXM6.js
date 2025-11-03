@@ -1,0 +1,1 @@
+import{i as h,h as t,v as S,R as b,S as k}from"./BTM_f0C0.js";function u(r,i){return r===i||r?.[k]===i}function d(r={},i,a,T){return h(()=>{var f,s;return t(()=>{f=s,s=[],S(()=>{r!==a(...s)&&(i(r,...s),f&&u(a(...f),r)&&i(null,...f))})}),()=>{b(()=>{s&&u(a(...s),r)&&i(null,...s)})}}),r}export{d as b};
