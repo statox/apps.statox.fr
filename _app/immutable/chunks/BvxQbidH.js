@@ -1,1 +1,0 @@
-import{r as a,a as e}from"./CYe5J-qk.js";const o=async t=>await e({path:"/cookbook/addRecipe",data:t,isUnauthenticatedCall:!0}),i=async()=>await a({path:"/cookbook/listRecipes"}),c=async()=>await a({path:"/cookbook/listIngredients"}),n=async t=>await e({data:{recipeId:t},path:"/cookbook/getRecipe",isUnauthenticatedCall:!0});export{c as a,o as b,n as g,i as l};
