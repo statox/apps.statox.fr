@@ -1,1 +1,0 @@
-import{m as d,D as n,k as p,ap as u,b2 as c}from"./Brv8g2mx.js";function m(s,o,r){d(()=>{var a=n(()=>o(s,r?.())||{});if(r&&a?.update){var t=!1,f={};p(()=>{var e=r();u(e),t&&c(f,e)&&(f=e,a.update(e))}),t=!0}if(a?.destroy)return()=>a.destroy()})}export{m as a};
