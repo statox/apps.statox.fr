@@ -1,0 +1,1 @@
+import{Z as t,_ as b,x as h,$ as k,a0 as x}from"./D6WCIunz.js";function u(r,i){return r===i||r?.[x]===i}function c(r={},i,a,S){return t(()=>{var f,s;return b(()=>{f=s,s=[],h(()=>{r!==a(...s)&&(i(r,...s),f&&u(a(...f),r)&&i(null,...f))})}),()=>{k(()=>{s&&u(a(...s),r)&&i(null,...s)})}}),r}export{c as b};
