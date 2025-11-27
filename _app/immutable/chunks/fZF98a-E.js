@@ -1,0 +1,1 @@
+import{ao as o,R as u,a$ as _,S as t,aq as g,as as p,aG as i,Z as l,Y as r,ar as m}from"./OOCdeaM4.js";function E(d,n){let a=null,f=t;var s;if(t){a=m;for(var e=g(document.head);e!==null&&(e.nodeType!==p||e.data!==d);)e=i(e);if(e===null)l(!1);else{var y=i(e);e.remove(),r(y)}}t||(s=document.head.appendChild(o()));try{u(()=>n(s),_)}finally{f&&(l(!0),r(a))}}export{E as h};
