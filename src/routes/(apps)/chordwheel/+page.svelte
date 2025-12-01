@@ -65,22 +65,27 @@
         };
 
         p5.keyPressed = (e: KeyboardEvent) => {
-            const validEvents = [p5.LEFT_ARROW, p5.RIGHT_ARROW, p5.UP_ARROW, p5.DOWN_ARROW];
-            if (!validEvents.includes(p5.keyCode) || e.altKey) {
+            const validEvents: string[] = [
+                p5.LEFT_ARROW,
+                p5.RIGHT_ARROW,
+                p5.UP_ARROW,
+                p5.DOWN_ARROW
+            ];
+            if (!validEvents.includes(p5.key) || e.altKey) {
                 return;
             }
             e.preventDefault();
 
-            if (p5.keyCode === p5.LEFT_ARROW) {
+            if (p5.key === p5.LEFT_ARROW) {
                 shapePosition--;
             }
-            if (p5.keyCode === p5.RIGHT_ARROW) {
+            if (p5.key === p5.RIGHT_ARROW) {
                 shapePosition++;
             }
-            if (p5.keyCode === p5.UP_ARROW) {
+            if (p5.key === p5.UP_ARROW) {
                 rotateWheelCounterClockwise();
             }
-            if (p5.keyCode === p5.DOWN_ARROW) {
+            if (p5.key === p5.DOWN_ARROW) {
                 rotateWheelClockwise();
             }
         };
@@ -89,7 +94,7 @@
             x: number;
             y: number;
         };
-        p5.touchMoved = (e: TouchEvent) => {
+        p5.mouseMoved = (e: MouseEvent) => {
             // TODO fix typing
             // @ts-expect-error property className doesn't exists on EventTarget
             if (e.target?.className !== 'p5Canvas') {

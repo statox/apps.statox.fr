@@ -89,10 +89,17 @@ export const drawTile = (p5: p5, tile: Tile) => {
     p5.beginShape();
     p5.vertex(bottomLeft.x, bottomLeft.y);
     p5.vertex(topLeft.x, topLeft.y);
-    p5.quadraticVertex(topMiddle.x, topMiddle.y, topRight.x, topRight.y);
+
+    // p5.bezierVertex(topMiddle.x, topMiddle.y, topRight.x, topRight.y);
+    p5.bezierVertex(topMiddle.x, topMiddle.y);
+    p5.bezierVertex(topRight.x, topRight.y);
+
     p5.vertex(topRight.x, topRight.y);
     p5.vertex(bottomRight.x, bottomRight.y);
-    p5.quadraticVertex(bottomMiddle.x, bottomMiddle.y, bottomLeft.x, bottomLeft.y);
+
+    // p5.bezierVertex(bottomMiddle.x, bottomMiddle.y, bottomLeft.x, bottomLeft.y);
+    p5.bezierVertex(bottomMiddle.x, bottomMiddle.y);
+    p5.bezierVertex(bottomLeft.x, bottomLeft.y);
     p5.endShape();
 
     p5.noStroke();
