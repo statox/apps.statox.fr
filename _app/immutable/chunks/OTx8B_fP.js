@@ -1,0 +1,1 @@
+import{R as o,S as _,T as c,U as T,V as d,W as b,X as p,Y as y,Z as f}from"./By2YMBx5.js";import{B as E}from"./C51pyZCL.js";function m(t,i,u=!1){_&&c();var e=new E(t),h=u?T:0;function n(a,r){if(_){const l=d(t)===b;if(a===l){var s=p();y(s),e.anchor=s,f(!1),e.ensure(a,r),f(!0);return}}e.ensure(a,r)}o(()=>{var a=!1;i((r,s=!0)=>{a=!0,n(s,r)}),a||n(!1,null)},h)}export{m as i};
