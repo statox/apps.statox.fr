@@ -1,1 +1,0 @@
-import{ao as o,R as u,ap as p,S as t,aq as _,ar as g,as as i,Z as l,Y as r,at as m}from"./DuF_ZvDd.js";function E(d,n){let a=null,f=t;var s;if(t){a=m;for(var e=_(document.head);e!==null&&(e.nodeType!==g||e.data!==d);)e=i(e);if(e===null)l(!1);else{var y=i(e);e.remove(),r(y)}}t||(s=document.head.appendChild(o()));try{u(()=>n(s),p)}finally{f&&(l(!0),r(a))}}export{E as h};
