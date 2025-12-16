@@ -1,1 +1,0 @@
-import{ak as o,I as u,al as p,J as t,am as _,an as g,ao as l,Q as i,P as n,ap as m}from"./DnM7dGtc.js";function E(d,r){let a=null,f=t;var s;if(t){a=m;for(var e=_(document.head);e!==null&&(e.nodeType!==g||e.data!==d);)e=l(e);if(e===null)i(!1);else{var y=l(e);e.remove(),n(y)}}t||(s=document.head.appendChild(o()));try{u(()=>r(s),p)}finally{f&&(i(!0),n(a))}}export{E as h};
