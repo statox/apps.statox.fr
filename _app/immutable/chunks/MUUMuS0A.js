@@ -1,0 +1,1 @@
+import{ab as t,k as i,l as c,m as f}from"./C1Jxye1l.js";import{B as y}from"./CgJycjzY.js";function m(r,e,n){c&&f();var s=new y(r),o=!t();i(()=>{var a=e();o&&a!==null&&typeof a=="object"&&(a={}),s.ensure(a,n)})}export{m as k};

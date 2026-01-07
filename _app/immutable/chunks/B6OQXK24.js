@@ -1,0 +1,1 @@
+import{c as t}from"./QnWVP2T3.js";const n=o=>{const s=o.url;return s.includes(".doc")?"doc":s.includes(".pdf")?"pdf":s.includes("youtube")?"youtube":"link"},c=t.chords.getAll,r=async()=>(await c()).map(s=>({...s,type:n(s)})),i=t.chords.getLinksVisitsCount,d=t.chords.checkLinks,u=t.chords.updateAll,a=t.chords.addLinkVisit;export{r as a,a as b,d as c,i as d,c as g,u};
