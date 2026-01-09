@@ -1,1 +1,0 @@
-import{P as t}from"./CELBgAxi.js";import{c as r}from"./QnWVP2T3.js";import{s as o}from"./D9yyTlOy.js";const n=r.reactor.getEntriesForPublic,m=async a=>{const e=t+"/reactor/addEntry";await o.post(e).withCredentials().field("name",a.name).field("commaSeparatedTags",a.commaSeparatedTags).attach("file",a.file)};export{n as g,m as u};
