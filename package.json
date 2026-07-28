@@ -24,7 +24,7 @@
         "@types/luxon": "^3.7.1",
         "@types/node": "^25",
         "@types/superagent": "^8.1.9",
-        "ajv": "^8.17.1",
+        "ajv": "^8.18.0",
         "chart.js": "^4.5.1",
         "eslint": "^9.39.2",
         "eslint-config-prettier": "^10.1.8",
